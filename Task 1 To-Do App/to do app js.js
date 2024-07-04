@@ -3,7 +3,7 @@ document.getElementById("btn").addEventListener("click", () => {
   const input = document.getElementById("input");
   const inputValue = input.value;
   if(inputValue === ''){
-    alert('Input filed cannot be empty');
+    alert('Input file cannot be empty!!');
     return;
   }
   count++;
@@ -15,8 +15,8 @@ document.getElementById("btn").addEventListener("click", () => {
     <td scope="row">${count}</td>
     <td>${inputValue}</td>
     <td>
-    <button id="delete" style="background:red;border:none;" class="btn btn-primary py-2 px-3 delete-btn">Delete <i class="fa-solid fa-delete-left"></i></button>
-    <button id="done" style="background:green;border:none;" class="btn btn-primary py-2 px-3 done-btn">Done <i class="fa-solid fa-circle-check"></i></button>
+    <button id="DELETE" style="background:red;border:none;" class="btn btn-primary py-2 px-3 delete-btn">Delete <i class="fa-solid fa-delete-left"></i></button>
+    <button id="DONE" style="background:green;border:none;" class="btn btn-primary py-2 px-3 done-btn">Done <i class="fa-solid fa-circle-check"></i></button>
 
     </td>
     </tr>
